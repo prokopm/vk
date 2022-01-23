@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A62D9FF4279DC9C800D41358 /* FriendsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62D9FF3279DC9C800D41358 /* FriendsListTableViewController.swift */; };
+		A62D9FF9279DCABF00D41358 /* FriendsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62D9FF7279DCABF00D41358 /* FriendsTableViewCell.swift */; };
+		A62D9FFA279DCABF00D41358 /* FriendsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A62D9FF8279DCABF00D41358 /* FriendsTableViewCell.xib */; };
+		A62D9FFD279DD34400D41358 /* FriendsListCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62D9FFC279DD34400D41358 /* FriendsListCellModel.swift */; };
 		A67BA89F274E42670058B01D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67BA89E274E42670058B01D /* AppDelegate.swift */; };
 		A67BA8A1274E42670058B01D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67BA8A0274E42670058B01D /* SceneDelegate.swift */; };
 		A67BA8A3274E42670058B01D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67BA8A2274E42670058B01D /* ViewController.swift */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A62D9FF3279DC9C800D41358 /* FriendsListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsListTableViewController.swift; sourceTree = "<group>"; };
+		A62D9FF7279DCABF00D41358 /* FriendsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsTableViewCell.swift; sourceTree = "<group>"; };
+		A62D9FF8279DCABF00D41358 /* FriendsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FriendsTableViewCell.xib; sourceTree = "<group>"; };
+		A62D9FFC279DD34400D41358 /* FriendsListCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsListCellModel.swift; sourceTree = "<group>"; };
 		A67BA89B274E42670058B01D /* vk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A67BA89E274E42670058B01D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A67BA8A0274E42670058B01D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +45,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A62D9FED279DC8CE00D41358 /* FriendList */ = {
+			isa = PBXGroup;
+			children = (
+				A62D9FF0279DC90800D41358 /* Cell */,
+				A62D9FEF279DC90000D41358 /* Model */,
+				A62D9FEE279DC8F000D41358 /* ViewController */,
+			);
+			path = FriendList;
+			sourceTree = "<group>";
+		};
+		A62D9FEE279DC8F000D41358 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A62D9FF3279DC9C800D41358 /* FriendsListTableViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		A62D9FEF279DC90000D41358 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A62D9FFC279DD34400D41358 /* FriendsListCellModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A62D9FF0279DC90800D41358 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A62D9FF7279DCABF00D41358 /* FriendsTableViewCell.swift */,
+				A62D9FF8279DCABF00D41358 /* FriendsTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		A67BA892274E42660058B01D = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +99,7 @@
 		A67BA89D274E42670058B01D /* vk */ = {
 			isa = PBXGroup;
 			children = (
+				A62D9FED279DC8CE00D41358 /* FriendList */,
 				A67BA89E274E42670058B01D /* AppDelegate.swift */,
 				A67BA8A0274E42670058B01D /* SceneDelegate.swift */,
 				A67BA8A2274E42670058B01D /* ViewController.swift */,
@@ -128,6 +172,7 @@
 				A67BA8AB274E426A0058B01D /* LaunchScreen.storyboard in Resources */,
 				A67BA8A8274E426A0058B01D /* Assets.xcassets in Resources */,
 				A67BA8A6274E42670058B01D /* Main.storyboard in Resources */,
+				A62D9FFA279DCABF00D41358 /* FriendsTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,7 +184,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A67BA8A3274E42670058B01D /* ViewController.swift in Sources */,
+				A62D9FFD279DD34400D41358 /* FriendsListCellModel.swift in Sources */,
+				A62D9FF4279DC9C800D41358 /* FriendsListTableViewController.swift in Sources */,
 				A67BA89F274E42670058B01D /* AppDelegate.swift in Sources */,
+				A62D9FF9279DCABF00D41358 /* FriendsTableViewCell.swift in Sources */,
 				A67BA8A1274E42670058B01D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
